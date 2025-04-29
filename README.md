@@ -12,6 +12,8 @@
 - Vue Router
 - Axios
 
+## 技术选型：vue + Element Plus + Axios + TypeScript + Vite + Pinia
+
 ## 功能特点
 
 - 多种实用工具集合
@@ -99,4 +101,4 @@ yarn build
 
 ## 许可证
 
-[MIT](LICENSE) 
+[MIT](LICENSE)
