@@ -1,0 +1,47 @@
+/**
+ * @author dengxingquan
+ * @date 2023-04-25
+ * @description 全局样式文件
+ */
+
+/* 全局样式重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #333;
+  background-color: #f5f7fa;
+}
+
+/* 工具箱全局样式 */
+.toolbox-container {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.toolbox-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #409eff;
+  border-bottom: 1px solid #ebeef5;
+  padding-bottom: 10px;
+}
+
+.toolbox-card {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.toolbox-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+} 
